@@ -1,3 +1,5 @@
+.venv/
+
 # Object files
 *.o
 
