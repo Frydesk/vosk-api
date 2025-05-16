@@ -1,0 +1,12 @@
+setuptools>=65.5.1
+wheel>=0.38.4
+fastapi==0.104.1
+uvicorn==0.24.0
+vosk==0.3.45
+sounddevice==0.4.6
+numpy>=1.20,<2.0
+torch>=2.2.0
+torchaudio>=2.2.0
+python-multipart==0.0.6
+websockets==12.0
+silero-vad==4.0.0

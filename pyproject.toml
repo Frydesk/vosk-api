@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "vosk-api"
+version = "0.1.0"
+description = "Spanish voice transcription API using Vosk and Silero VAD"
+authors = ["Your Name <your.email@example.com>"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.10"
+fastapi = "^0.109.0"
+uvicorn = "^0.27.0"
+vosk = "^0.3.45"
+sounddevice = "^0.4.6"
+numpy = "^1.24.0,<2.0.0"
+torch = "^2.2.0"
+torchaudio = "^2.2.0"
+python-multipart = "^0.0.6"
+websockets = "^12.0"
+silero-vad = "*"
+packaging = "^23.2,<24.0"
+onnxruntime = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api" 
